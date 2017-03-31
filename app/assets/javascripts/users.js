@@ -22,12 +22,12 @@ $(document).ready(function() {
        return false;
    });
    
-   function stripeResponseHandler(status, reponse) {
+   function stripeResponseHandler(status, response) {
        // Get a reference to the fase:
        var f = $('#new_user');
        var token = response.id;
-       f.append("<input type='hidden' name='user[stripe_card_token]' value='" + token + "' />");
-       
+       appendToken = "<input type='hidden' name='user[stripe_card_token]' value='" + token + "' />";
+       f.append(appendToken);
        f.get(0).submit();
    }
 });
