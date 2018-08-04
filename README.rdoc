@@ -4,9 +4,9 @@ Ruby on Rails Project
 Subscription-based web application!
 
 Developed by:
-Ashish Patel
-National Institute of Technology,
-Agartala, India.
+ Ashish Patel
+ National Institute of Technology,
+ Agartala, India.
 
 Things you may want to cover:
 
